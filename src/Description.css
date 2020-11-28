@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+#description-container {
+	display: flex;
+	width: 50rem;
+	margin: auto;
+}
+
+#details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+
+#expl {
+	width: 50%;
+	text-align: left;
+}
