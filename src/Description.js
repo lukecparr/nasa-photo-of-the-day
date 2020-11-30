@@ -12,7 +12,7 @@ function Description(props) {
 				<p>Date</p>
 				<h2>{data.date}</h2>
 				<p>Source</p>
-				<a href={data.hdurl}><h3>{data.hdurl}</h3></a>
+				<a href={data.hdurl}><p>{data.hdurl}</p></a>
 			</div>
 			<div id="expl">
 				<p>{data.explanation}</p>
